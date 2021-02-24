@@ -4,23 +4,327 @@
 <head>
   <title>영어 문법 정리</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <h1><a href="index.html">목차</a></h1>
-  <ol>
-    <li><a href="1.html">문장</a></li>
-    <li><a href="2.html">8품사</a></li>
-    <li><a href="3.html">시제</a></li>
-    <li><a href="4.html">수일치</a></li>
-    <li><a href="5.html">능동태/수동태</a></li>
-    <li><a href="6.html">준동사</a></li>
-    <li><a href="7.html">관계대명사</a></li>
-    <li><a href="8.html">전치사</a></li>
-    <li><a href="9.html">접속사</a></li>
-    <li><a href="10.html">가정법</a></li>
-    <li><a href="11.html">비교</a></li><br>
-  </ol>
-  <h2>8품사</h2>
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">문장</a></li>
+      <li><a href="2.html">8품사</a></li>
+      <li><a href="3.html">시제</a></li>
+      <li><a href="4.html">수일치</a></li>
+      <li><a href="5.html">능동태/수동태</a></li>
+      <li><a href="6.html">준동사</a></li>
+      <li><a href="7.html">관계대명사</a></li>
+      <li><a href="8.html">전치사</a></li>
+      <li><a href="9.html">접속사</a></li>
+      <li><a href="10.html">가정법</a></li>
+      <li><a href="11.html">비교</a></li><br>
+    </ol>
+    <div id="article">
+      <h2>[8품사]</h2>
+      <h4 style="margin-bottom:0px">1. 8품사 종류</h4>
+      <div class="content">
+        1) 명사: 사람/사물 등 이름
+        * 명사자리: &#10112; 관사+명사 &#10113; 관사+형용사+명사 &#10114; 관사+지시형용사+명사 &#10115; 소유격+명사 &#10116; 전치사+명사 &#10117; 타동사+명사 &#10118; 구동사+명사
+        <p>
+          2) 대명사
+          <table>
+            <tr>
+              <td style="background-color:MistyRose">인칭대명사</td>
+              <td style="text-align:left">ex) I, you, he, she, they, it ....</td>
+            </tr>
+            <tr>
+              <td style="background-color:MistyRose">지시대명사</td>
+              <td style="text-align:left">ex) this, that, these, those</td>
+            </tr>
+            <tr>
+              <td style="background-color:MistyRose">부정대명사</td>
+              <td style="text-align:left">ex) some, any, all, one, another, the other</td>
+            </tr>
+          </table>
+        </p>
+        <p>
+          3) 동사: 주어의 동작/상태를 나타냄
+          <table>
+            <tr>
+              <td style="background-color:PowderBlue">Be동사</td>
+              <td style="text-align:left">ex) am, are, is ....</td>
+            </tr>
+            <tr>
+              <td style="background-color:PowderBlue">일반동사</td>
+              <td style="text-align:left">자동사: 동사 뒤 목적어 필요없는 동사<br>
+                                          타동사: 동사 뒤 목적어 필요한 동사</td>
+            </tr>
+            <tr>
+              <td style="background-color:PowderBlue">조동사</td>
+              <td style="text-align:left">ex) some, any, all, one, another, the other</td>
+            </tr>
+          </table>
+          <h4 class="red"># 동사의 형태관련 문제유형</h4>
+          <div class="symbol">
+            &#10112; 조동사+동사원형<br>
+            &#10113; Be동사+현재분사(~ing)/과거분사(~ed)<br>
+            &#10114; 조동사 have+과거분사(~ed)<br>
+            &#10115; 자동사/타동사 구분
+          </div>
+          <table>
+            <tr>
+              <td style="background-color:HoneyDew">타동사</td>
+              <td style="text-align:left">
+                discuss <span>about</span>/ reach <span>at</span>/ attend <span>to</span>/ resemble <span>like</span>/<br>
+                regret <span>for</span>/ answer <span>to</span>/ exceed <span>to</span>/ approve <span>for</span>...
+              </td>
+              <td>전치사를 쓰면 틀림</td>
+            </tr>
+            <tr>
+              <td style="background-color:HoneyDew">자동사</td>
+              <td style="text-align:left">
+                listen to/ object to/ wait for/ respond to/ account<br>
+                for/ deal with/ talk about/ rafer to/ interfere with/<br>
+                comply with/ depend on/ care for...
+              </td>
+              <td>전치사를 없으면 틀림</td>
+            </tr>
+          </table>
+        </p>
+        <p>
+          4) 형용사<br>
+          역할: 명사 수식/ 주격보어자리/ 목적격보어자리<br>
+          ex) I met some <span class="underline">nice</span> students. /
+          They were <span class="underline">cool</span>. /
+          The movie made me <span class="underline">happy</span>.
+        </p>
+        <p>
+          5) 부사: 동사/형용사/부사/문장 전체 수식<span style="font-weight:bold"> (명사는 수식 X)</span><br>
+          ex) We can meet <span class="underline">frequently</span>. / The class was <span class="underline">so</span> easy to understand.<br>
+          <span style="padding-left:26px">He speaks <span class="underline">very</span> fast. / <span class="underline">Recently</span>, I began to study English.</span>
+        </p>
+        <p>
+          6) 전치사: 명사 앞에 놓여 장소, 방향, 시간, 이유 등을 나타냄.
+        </p>
+        <p>
+          7) 접속사: 단어-단어, 구-구, 절-절 연결
+          <table>
+            <tr>
+              <td class="PowderBlue">등위접속사</td>
+              <td class="left">대등하게 연결</td>
+              <td style="text-align:left">ex) and, but. or ...</td>
+            </tr>
+            <tr>
+              <td class="PowderBlue">상관접속사</td>
+              <td class="left">짝을 이루어 쓰임</td>
+              <td style="text-align:left">
+                ex) both A and B, either A or B, neither A nor B,<br>
+                <div style="padding-left:26px">not only A but also B, B as well as A ...</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="PowderBlue">종속접속사</td>
+              <td class="left">주절-종속절 연결</td>
+              <td style="text-align:left">ex) because, although, since, before, after ...</td>
+            </tr>
+          </table>
+        </p>
+        <p>
+          8)감탄사: 감정 전달을 위해 입에서 내는 소리
+        </p>
+    </div>
+
+    <h4>2. 명사</h4>
+    <div class="content">
+      1) 가산 명사: 셀 수 있는 명사<br>
+      단수: 부정관사 or 정관사 / 복수: +(e)s
+      <p>
+        2) 불가산 명사: 셀 수 없는 명사 / 단수 복수 구분없이 항상 단수 취급
+      </p>
+      <p>
+        3) 한정사: 명사 앞에 놓여 명사의 의미를 한정
+        <div class="symbol">
+          &#10112; 관사: 부정관사(a/an), 정관사(the)<br>
+          &#10113; 소유격: 인칭대명사의 소유격 ex) my, yours, his...<br>
+          &#10114; 지시형용사: this, that (these, those)<br>
+          &#10115; 수량형용사: many, much, few, a few, little, a little, a lot of...
+        </div>
+      </p>
+      <p>
+        4) 복합명사: 두 개 이상의 명사가 한 단어처럼 쓰이는 경우<br>
+        ex) account number, application form, insurance coverage, job appraisal,<br>
+        safety procedure, customs office, savings account...
+      </p>
+      <p>
+        5) 일반명사-사람명사 구분
+        <div class="noun-row">
+          <div class="column">
+            engineering / enginner<br>
+            application / applicant<br>
+            authorization / author<br>
+            performance / perfomer<br>
+            translation / translator
+          </div>
+          <div class="column">
+            attendance / attendant<br>
+            consultation / consultant<br>
+            contribution / contributor<br>
+            occupation / occupant
+          </div>
+        </div>
+      </p>
+    </div>
+
+    <h4>3. 대명사: 명사 반복 피하기 위해 대신해서 사용</h4>
+    <div class="content">
+      1) 인칭대명사: 사람/사물 지칭하는 대명사
+      <p>
+        2) 재귀대명사: 문장의 주어/목적어 같은 명사 쓰일 때 대신 사용
+        <div class="symbol">
+          &#10112; 재귀용법 ex) He hit himself. (생략 불가능)<br>
+          &#10113; 강조용법 ex) I myself hit him (생략 가능)<br>
+          &#10114; 관용적용법<br>
+          <table>
+            <tr id="sym">
+              <td class="odd">by onself (단독)</td>
+              <td class="odd">for oneself (독력)</td>
+              <td class="odd">of oneself (자동)</td>
+              <td style="border:none; width:25%;">on own oneself (독립)</td>
+            </tr>
+          </table>
+        </div>
+      </p>
+      <p>
+        3) 지시대명사: 사람/사물 가리킴: this, that, these, those<br>
+        지시대명사 특별용법
+        <div class="symbol">
+          &#10112; <span class="bold">한 문장 안</span>에서 앞에 나온 <span class="bold">명사 다시 언급</span>할 때, that/those만 사용<br>
+          ex) the <span class="bold">bed</span> in my room is smaller than that your room.<br>
+          &#10113; those who: ~한 사람들<br>
+          ex) <span class="bold">Those</span> (<span class="bold">who</span> are) interested in the movie will go to the theater tonight.
+        </div>
+      </p>
+      <p>
+        4) 부정대명사: 정해지지 않은 것들을 가리킴
+        <div class="symbol">
+          &#10112; each/every: 단수취급<br>
+          &#10113; some/any<br>
+          some: 긍정문, 의문문 권유/부탁<br>
+          any: 의문문, 부정문, 조건문, 긍정문강조의미<br>
+          ex) I have <span class="bold">some</span> money. / Do you want <span class="bold">some</span> milk? /<br>
+          I don't have <span class="bold">any</span> money. / Do you have <span class="bold">any</span> money? /<br>
+          <span class="bold">Any</span> one can do that. / if you <span class="bold">any</span> money. lend me some.<br>
+          &#10114; no/more<br>
+          no: 형용사 취급<br>
+          none: 대명사 취급
+        </div>
+      </p>
+    </div>
+
+    <h4>4. 형용사: 명사: 명사 앞 or 뒤 수식 / 주격보어 or 목적격보어 자리</h4>
+    <div class="content">
+      1) 형용사 한정용법: 명사 앞/뒤 수식<br>
+      ex) This is a <span class="bold">good</span> book. / I found out something <span class="bold">special</span> on the book.
+      <p>
+        2) 형용사 서술용법: 주격/목적격보어 자리<br>
+        ex) she is <span class="bold">nice</span>. / she made me <span class="bold">happy</span>.
+      </p>
+      <p>
+        3) 수량형용사<br>
+        <div class="symbol">
+          &#10112; many, few, a few, a number of + 가산 복수 명사<br>
+          &#10113; much, little, a little, an amount of + 불가산 명사<br>
+          &#10114; each, every + 단수명사<br>
+          &#10115; a lot of, plenty of + 가산/불가산 명사
+        </div>
+      </p>
+      <p>
+        4) 혼동되는 형용사
+        <div class="column" style="background-color:SlateBlue;color:AntiqueWhite">
+          beneficial(유익한) / beneficent(인정많은)<br>
+          successful(성공의) / successive(연속의)<br>
+          comparable(필적하는) / comparative(비교의)<br>
+          comprehensible(알기쉬운) / comprehensive(포괄적인)
+        </div>
+        <div class="column" style="background-color:SlateBlue;color:AntiqueWhite">
+          considerable(상당한) / considerate(사려깊은)<br>
+          responsible(책임지는) / responsive(반응하는)<br>
+          respective(각각의) / respectful(공손한)<br>
+          sensitive(민감한) / sensible(분별있는)
+        </div>
+      </p><br><br><br>
+      <h4 class="red"># 토익 빈출 형용사</h4>
+      <div class="column">
+        durable(내구성 있는)<br>
+        competitive(경쟁력 있는)<br>
+        reliable(믿을만한)<br>
+        complicated(복잡한)<br>
+        understanding(이해심 많은)<br>
+        protective(보호용의)<br>
+        critical(비판적인, 중요한)<br>
+        optimistic(낙관적인)<br>
+        consecutive(연속의)<br>
+        existing(기존의)<br>
+        demanding(까다로운)<br>
+        rewarding(보람을 주는)<br>
+        designated(지정된)<br>
+        opposing(서로 다른)<br>
+      </div>
+      <div class="column">
+        satisfactory(만족스러운)<br>
+        reasonable(합리적인)<br>
+        potential(잠재적인)<br>
+        in a timely manner(시기적절한)<br>
+        qualified(자격 있는)<br>
+        accessible(접속 가능한)<br>
+        numerable(셀 수 있는, 수많은)
+        attached(첨부된)<br>
+        relevant(연관된)<br>
+        missing(잃어버린)<br>
+        dedicated(헌신적인)<br>
+        preferred(선호되어지는)<br>
+        detailed(세부적인)<br>
+        enclosed(동봉된)<br>
+      </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h4>5. 부사</h4>
+    <div class="content">
+      <p>
+        1) 역할: 동사 수식/ 형용사 수식/ 부사 수식/ 준동사 수식/ 문장 전체 수식
+      </p>
+      <p>
+        2) already, still, yet<br>
+        ex) I <span class="underline">already</span> bought this. (벌써) / I <span class="underline">still</span> don't know this name. (여전히)<br>
+        Have you finished it <span class="underline">yet</span>?. (벌써) / My sister cat't ride a bike <span class="underline">yet</span>.(아직)
+      </p>
+      <p>
+        3) very, much, so, too<br>
+        ex) The phone is <span class="underline">very</span> small. / He enjoyed the movie <span class="underline">much</span>.<br>
+        He speaks <span class="underline">so</span> fast. / It's <span class="underline">too</span> far <span class="underline">to</span> go there. (너무 ~해서 ~할 수 없다)
+      </p>
+      <p>
+        4) 부사/형용사 형태 같은 경우<br>
+        hard / fast / high / late / near / early ...<br>
+        ex) We did some <span class="underline">hard</span> work. / We worked <span class="underline">hard<span>.<br>
+        I was <span class="underline">late</span> for the class. / He prepared the meeting <span class="underline">late</span> at night.
+      </p>
+      <p>
+        5) 혼동하기 쉬운 부사들<br>
+        <table>
+          <tr>
+            <td>late - lately (최근에)</td>
+            <td>close - closely (자세히)</td>
+            <td>high - highly (매우)</td>
+          </tr>
+          <tr>
+            <td>most - mostly (대개)</td>
+            <td>near - nearly (거의)</td>
+            <td>hard - hardly (거의 ~않다)</td>
+          </tr>
+        </table>
+      </p>
+    </div>
+
+  </div>
 </body>
 </html>
